@@ -172,7 +172,7 @@ button{
 }
 
 
-@media (min-width: 1367px){
+@media (max-width: 2000px){
 
     .logo{
         position: absolute;
@@ -615,5 +615,8 @@ div.advertencia{
 
 
     
+}
+
+
 }
 
