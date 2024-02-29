@@ -10,9 +10,10 @@
     gap: 40px;
 }
 .contenedor{
-    position: relative;
-    width: 1440px;
-    height: 1024px;
+        position: relative;
+        width: 1366px;
+        height: 768px;
+    
 }
 
     div.rectangulo{
@@ -158,6 +159,59 @@ button{
     
 }
 
+@media (max-width: 1366px){
+    .logo{
+        position: absolute;
+        top: 20px;
+        left: 10px;
+    }
+    #txt1{
+        position: absolute;
+        top: 80px;
+        left: 110px;
+    
+    }
+
+    .cajaTexto1{
+        width: 600px;
+    }
+    #charNum{
+        top: 428px;
+        left: 367px;
+        font-size: 12px;
+    }
+    .advertencia{
+        top: 410px;
+        left: 100px;
+        font-size: 13px;
+    }
+
+    button{
+        top: -78px;
+        left: -50px;
+    }
+
+    div.cajaBotones{
+        top: 600px;
+    }
+
+    .rectangulo{
+        top: -100px;
+        left: 850px;
+        scale: 80%;
+    }
+    .tenor-gif-embed{
+        scale: 90%;
+        top: 200px;
+        
+    }
+    .contenedor{
+        position: relative;
+        width: 1366px;
+    
+}
+
+}
 @media (max-width: 1280px){
     .logo{
         position: absolute;
@@ -175,12 +229,14 @@ button{
         width: 400px;
     }
     #charNum{
-        top: 418px;
-        left: 420px;
+        top: 428px;
+        left: 367px;
+        font-size: 12px;
     }
     .advertencia{
         top: 410px;
         left: 100px;
+        font-size: 13px;
     }
 
     button{
@@ -190,7 +246,7 @@ button{
 
     .rectangulo{
         top: -100px;
-        left: 650px;
+        left: 850px;
         scale: 80%;
     }
     .tenor-gif-embed{
@@ -198,11 +254,21 @@ button{
         top: 200px;
         
     }
-
+    .contenedor{
+        position: relative;
+        width: 1280px;
+    
+}
+    div.advertencia{
+        width: 400px;
+    }
 
 }
 
 @media (max-width: 768px){
+    div.cajaBotones{
+        width: auto;
+    }
     .logo{
         position: absolute;
         top: 20px;
@@ -220,8 +286,9 @@ button{
         width: 400px;
     }
     #charNum{
-        top: 418px;
-        left: 420px;
+        top: 438px;
+        left: 390px;
+        font-size: 12px;
     }
     .advertencia{
         top: 410px;
@@ -229,7 +296,7 @@ button{
     }
 
     button{
-        top: -250px;
+        top: -50px;
         left: -150px;
         scale: 90%;
     }
@@ -245,9 +312,29 @@ button{
         top: 200px;
         
 }
+.contenedor{
+        position: relative;
+        width: 768px;
+    
+}
+div.advertencia{
+    position: relative;
+    width: 430px;
+
+    top: 410px;
+    left: 112px;
+    font-size: 13px;
+}
+
 
 }
+
+
+
 @media (max-width: 480px){
+    div.cajaBotones{
+        width: auto;
+    }
     .logo{
         position: absolute;
         top: 20px;
@@ -269,26 +356,35 @@ button{
 
 
     .advertencia{
+        width: auto;
+        top: 510px;
+        left: 0px;
+    }
+    div.advertencia{
+        width: 230px;
+
         top: 510px;
         left: 102px;
+        font-size: 13px;
     }
 
     #charNum{
-        top: 534px;
-        left: 308px;
+        top: 550px;
+        left: 190px;
+        font-size: 11px;
     }
 
     button{
-        top: -150px;
+        top: 0px;
         left: -50px;
         scale: 90%;
     }
     #btn2{
-        top: -90px;
+        top: 50px;
         left: -300px;
     }
     #btn3{
-        top: -29px;
+        top: 100px;
         left: -557px;
     }
 
@@ -303,6 +399,92 @@ button{
             scale: 70%;
             top: 200px;
     }
+    .contenedor{
+        position: relative;
+        width: 480px;
+       /* height: 768px;*/
+    
+}
+
+
+    
+}
+
+@media (max-width: 320px){
+    div.cajaBotones{
+        width: auto;
+    }
+    .logo{
+        position: absolute;
+        top: 10px;
+        left: -30px;
+        scale: 60%;
+    }
+    #txt1{
+        position: absolute;
+        top: 80px;
+        left: 50px;
+    
+    }
+
+    .cajaTexto1{
+        width: 175px;
+        height: 400px;
+        font-size: 20px;
+    }
+
+
+    .advertencia{
+        width: auto;
+        top: 510px;
+        left: -50px;
+    }
+    div.advertencia{
+        width: 230px;
+
+        top: 510px;
+        left: 45px;
+        font-size: 13px;
+    }
+
+    #charNum{
+        top: 544px;
+        left: 118px;
+        font-size: 12px;
+    }
+
+    button{
+        position: absolute;
+        top: 0px;
+        left: -100px;
+        scale: 90%;
+    }
+    #btn2{
+        top: 50px;
+        left: -350px;
+    }
+    #btn3{
+        top: 100px;
+        left: -605px;
+    }
+
+    .rectangulo{
+        top: 600px;
+        left: -50px;
+        scale: 75%;
+        box-shadow: none;
+    
+    }
+    .tenor-gif-embed{
+            scale: 70%;
+            top: 200px;
+    }
+    .contenedor{
+        position: relative;
+        width: 320px;
+       /* height: 768px;*/
+    
+}
 
 
     
