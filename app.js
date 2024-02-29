@@ -47,7 +47,7 @@ function funcionReescribir() {
 
 }
     console.log(funcionEncriptar());
-    document.querySelector("#txt1").value = funcionEncriptar();
+    document.querySelector("#txt2").value = funcionEncriptar();
     //alert('Listo! Tu mensaje ha sido encriptado O,.O');
     cambiarTexto('h3','Listo! Tu mensaje ha sido encriptado');
     document.getElementById('txtrec2').style.display ='none';
@@ -78,7 +78,7 @@ function funcionDevolver() {
         return desencriptado5;
     }
     console.log(funcionDesencriptar());
-    document.querySelector("#txt1").value = funcionDesencriptar();
+    document.querySelector("#txt2").value = funcionDesencriptar();
     //alert('Eureka! desencriptamos el mensaje O,.o');
     cambiarTexto('h3','Eureka! Tu mensaje ha sido desencriptado');
     document.getElementById('txtrec2').style.display ='none';
@@ -90,7 +90,7 @@ function funcionDevolver() {
 //FUNCION QUE COPIA EL TEXTO EN EL PORTAPAPELES AL PRESIONAR EL BOTON COPIAR
 function funcionCopiar() {
     
-    let texto=document.getElementById('txt1').value;
+    let texto=document.getElementById('txt2').value;
     navigator.clipboard.writeText(texto);
     console.log('texto copiado',texto);
     alert('Texto copiado!')
