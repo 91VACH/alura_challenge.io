@@ -1,5 +1,11 @@
 //APARTADO DE INICIALIZACIÓN
-
+function reponerTdo() {
+    document.getElementById('muneco').style.display='inline'
+    document.getElementById('penguin').style.display='none'
+    cambiarTexto('h3','Ningún mensaje fue encontrado');
+    document.getElementById('txtrec2').style.display ='inline';
+   document.getElementById('txtrec2').style.textAlign ='center';
+}
 //FUNCION OCULA Y MUESTRA IMAGEN PINGUINO
 function funcionOcultaMuestra() {
     document.getElementById('muneco').style.display='none'
@@ -25,8 +31,9 @@ function funcionReescribir() {
     let esMayuscula = texto.match(buscar);
     
     if(esMayuscula){
-         alert('No se permiten mayúsculas ni tildes')
-        document.location.reload();
+         alert('No se permiten mayúsculas ni tildes');
+         reponerTdo();
+        //document.location.reload();
         }else{
     funcionOcultaMuestra();
     function funcionEncriptar() {
@@ -55,8 +62,10 @@ function funcionDevolver() {
  let esMayuscula = texto.match(buscar);
 
     if (esMayuscula){ 
-        alert('No se permiten mayúsculas ni tildes')
-        document.location.reload();
+        alert('No se permiten mayúsculas ni tildes');
+        reponerTdo();
+       // document.location.reload();
+
     }else{
     funcionOcultaMuestra();
    function funcionDesencriptar(){
