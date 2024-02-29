@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <title>Encriptador AxCa</title>
+         <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    </head>
+        <body>
+            <header>
+            <div class="contenedor">
+                <div class="logo">
+                    <h1><img src="img/Logo.png" alt="imagen del logo"></h1>
+                </div>
+                    <div>
+                    <form>
+                        <textarea name="message" onkeyup="countChars(this)" id="txt1" maxlength="148" required placeholder="Ingrese el texto Aquí" class="cajaTexto1" rows="10" cols="50"></textarea>
+                            <p id="charNum">0 caracteres</p>  
+                        <div class="rectangulo">
+                        <div id="penguin"> <div class="tenor-gif-embed" data-postid="2758227863089164351" data-share-method="host" data-aspect-ratio="1" data-width="100%"><a href="https://tenor.com/view/lost-looking-penguin-search-explore-gif-2758227863089164351">Lost Looking Sticker</a>from <a href="https://tenor.com/search/lost-stickers">Lost Stickers</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+                        </div>   
+                        <h2 class="muneco" id="muneco"><img src="img/Muñeco.png" alt="Imagen de muñeco con una lupa"></h2>
+                            <h3 class="textoRectangulo" id="txtrec1">Ningún mensaje fue encontrado</h3>
+                            <h4 class="textoRectangulo2"id="txtrec2">Ingresa el texto que desees encriptar o desencriptar.</h4>
+                        </div>
+                        <div class="advertencia"><img id="imagenAlerta"src="img/alerta.png" alt="imagen de un símbolo de alerta">Solo letras minúsculas y sin acentos (Máx. 148 caracteres) </div>
+                    
+                        </div>
+                    
+                    </form>
+              
+
+                <div class="cajaBotones">
+                    <button id="btn1" class="boton1" onclick="funcionReescribir()"> Encriptar</button>
+                    <button id="btn2" class="boton2" onclick="funcionDevolver()"> Desencriptar</button>
+                    <button id="btn3" class="boton3"onclick="funcionCopiar()"> Copiar</button>
+                
+                </div>
+
+            </div>
+            </header>
+
+            <script src="app.js" defer></script>
+        </body>
+ 
+
+</html>
