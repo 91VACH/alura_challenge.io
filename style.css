@@ -1,3 +1,5 @@
+
+
 .logo{
     position: relative;
     margin-bottom: 60px;
@@ -169,8 +171,7 @@ button{
     
 }
 
-
-@media only screen and (max-width: 2000px){
+@media only screen and (max-width: 2420px){
 
     .logo{
         position: absolute;
@@ -180,46 +181,107 @@ button{
 
     #txt1{
         position: absolute;
-        top: 20px;
-        left: 110px;
+        top: 100px;
+        left: 230px;
     
     }
     #txt2{
         position: absolute;
-        top: 250px;
-        left: 110px;
+        top: 400px;
+        left: 230px;
     
     }
 
     .cajaTexto1{
         width: 600px;
-        height: 200px;
+        height: 250px;
     }
 
     .cajaTexto2{
         width: 600px;
-        height: 200px;
+        height: 250px;
     }
 
     #charNum{
-        top: 485px;
-        left: 495px;
+        top: 685px;
+        left: 645px;
         font-size: 12px;
     }
     .advertencia{
-        top: 480px;
-        left: 100px;
+        top: 680px;
+        left: 250px;
         font-size: 13px;
     }
 
     button{
-        top: -100px;
-        left: -50px;
+        top: 100px;
+        left: 80px;
     }
     .rectangulo{
-        top: -100px;
-        left: 950px;
-        scale: 80%;
+        top: 50px;
+        left: 1200px;
+        scale: 100%;
+    }
+    .contenedor{
+        position: relative;
+        width: 1600px;
+        height: 768px;
+    
+    }
+
+}
+
+
+@media only screen and (max-width: 1920px){
+
+    .logo{
+        position: absolute;
+        top: 10px;
+        left: 0px;
+    }
+
+    #txt1{
+        position: absolute;
+        top: 100px;
+        left: 230px;
+    
+    }
+    #txt2{
+        position: absolute;
+        top: 400px;
+        left: 230px;
+    
+    }
+
+    .cajaTexto1{
+        width: 600px;
+        height: 250px;
+    }
+
+    .cajaTexto2{
+        width: 600px;
+        height: 250px;
+    }
+
+    #charNum{
+        top: 685px;
+        left: 645px;
+        font-size: 12px;
+    }
+    .advertencia{
+        top: 680px;
+        left: 250px;
+        font-size: 13px;
+    }
+
+    button{
+        top: 100px;
+        left: 80px;
+    }
+    .rectangulo{
+        top: 50px;
+        left: 1200px;
+        scale: 100%;
     }
     .contenedor{
         position: relative;
@@ -623,5 +685,6 @@ div.advertencia{
 
     
 }
+
 
 
